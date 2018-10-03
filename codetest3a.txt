@@ -1,0 +1,27 @@
+F, 5B
+10, 00
+5C, 8A
+5D, 04
+100, 24 //LD memdir 
+101, 0F
+102, 00
+103, 4F //ST regdir(R3) 
+104, 2B //LD regindpom(R3)
+105, 01
+106, 70 //SUB immed 
+107, 89
+108, 04
+109, 90 //OR immed
+10A, AF
+10B, 00
+10C, F6 //LSL
+10D, 44 //ST memdir
+10E, 50
+10F, 00
+110, 00 //BEQL
+111, 36
+148, 11 //JSR
+149, 50
+14A, 01
+14B, FE //HALT
+150, F0 //RTI 
